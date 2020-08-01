@@ -1,0 +1,15 @@
+<div class="addTodo">
+  <form action="/todo" method="POST">
+    <input required type="text" name="todo" />
+    <button type="submit">Add todo</button>
+  </form>
+</div>
+
+<% todoList.forEach(todo => { %>
+  <div class="todo">
+    <%= todo.name %>
+    <form action="/todo/<%= todo.id %>?_method=DELETE" method="POST">
+      <button type="submit">Delete</button>
+    </form>
+  </div>
+<% }) %>

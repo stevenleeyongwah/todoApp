@@ -1,0 +1,40 @@
+.todo{
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+  border-radius: 2px;
+}
+
+h1 {
+    text-align: center;
+    color: coral;
+}
+
+.addTodo {
+    text-align: center;
+}
+
+.addTodo input{
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.addTodo button {
+  border: none;
+  border-radius: 2px;
+  padding: 3px;
+  cursor: pointer;
+  color: white;
+  background-color: coral;
+}
+
+.todo button{
+  border: none;
+  border-radius: 2px;
+  padding: 3px;
+  cursor: pointer;
+  color: white;
+  background-color: coral;
+}
